@@ -14,4 +14,4 @@
 # License
  -See repo for License information
 # Screenshots
-![image](https://github.com/Malili05/Work-Day-Scheduler/assets/141981157/16b007e6-56d0-495e-8485-56db4d50d447)
+![image](https://github.com/Malili05/Weather-Dashboard/assets/141981157/50677686-b7be-461b-8ebe-fccd778e4a0e)
