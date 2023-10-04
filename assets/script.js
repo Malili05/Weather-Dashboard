@@ -36,6 +36,9 @@ function getForecast() {
 
         renderWeather(selectedData[0], $("#forecast1"))
         renderWeather(selectedData[1], $("#forecast2"))
+        renderWeather(selectedData[1], $("#forecast3"))
+        renderWeather(selectedData[1], $("#forecast4"))
+        renderWeather(selectedData[1], $("#forecast5"))
 
     })
 }

@@ -8,9 +8,9 @@
     <link src = "assets/styles.css">
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar bs-info-bg-subtle">
         <div class="container-fluid">
-          <a class="navbar-brand">Navbar</a>
+          <a class="navbar-brand ">Weather Dashboard</a>
           <form id="search-form" class="d-flex" role="search">
             <input id="search-city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
@@ -23,15 +23,26 @@
     <div id="current-weather" class="container-fluid bs-info-bg-subtle">
         
     </div>
-
-
-    <div>
-        <div id="forecast1"></div>
-        <div id="forecast2"></div>
-        <div id="forecast3"></div>
-        <div id="forecast4"></div>
-        <div id="forecast5"></div>
+    <div class="container text-center">
+      <div class="row row-cols-5">
+        <div id="forecast1" class="col">
+          <h5 class="card-title">Day 1</h5>
+        </div>
+        <div id="forecast2" class="col">
+          <h5 class="card-title">Day 2</h5>
+        </div>
+        <div id="forecast3" class="col">
+          <h5 class="card-title">Day 3</h5>
+        </div>
+        <div id="forecast4" class="col">
+          <h5 class="card-title">Day 4</h5>
+        </div>
+        <div id="forecast5" class="col">
+          <h5 class="card-title">Day 5</h5>
+        </div>
+      </div>
     </div>
+
 
     <script
     src="https://code.jquery.com/jquery-3.7.1.min.js"
